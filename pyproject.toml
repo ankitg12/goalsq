@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goalsq"
+version = "0.1.0"
+description = "Daily priorities in Logseq Markdown journals from the terminal"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Ankit Gaur"}]
+keywords = ["logseq", "cli", "journal", "daily-priorities"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+goalsq = "goalsq:main"
+
+[tool.setuptools]
+py-modules = ["goalsq"]
