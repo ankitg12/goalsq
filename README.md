@@ -6,13 +6,13 @@ A small CLI for **daily priorities in Logseq Markdown journals**. It reads and w
 
 ## Install
 
-Requires Python 3.10 or later. From a checkout:
+Requires Python 3.10 or later. Install from GitHub with [uv](https://docs.astral.sh/uv/concepts/tools/):
 
 ```sh
-uv tool install .
+uv tool install --python 3.12 git+https://github.com/ankitg12/goalsq.git
 ```
 
-This installs the `goalsq` command. The package has no runtime dependencies. To try it without installation, run `python3 goalsq.py --help` from the checkout.
+Or, from a checkout, run `uv tool install .`. Both install the `goalsq` command. The package has no runtime dependencies. To try it without installation, run `python3 goalsq.py --help` from the checkout.
 
 ## Choose a journal directory
 
